@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ResponsiveStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pablo Rodriguez</title>
+</head>
+<body>
+    <header id="top-nav">
+        <nav class="navbar navbar-expand-lg d-flex align-items-center  ">
+            <a class="navbar-brand" href="#">
+                <img class="logo img-fluid"src="logo/logopr.png" alt="PR"></img>
+            </a>
+            <button class="navbar-toggler  " style="outline:none " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fa fa-bars"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto py-3">
+                <li class="nav-item ">
+                    <a class="nav-link text-center" href="#">INICIO </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-center" href="#portfolio">PORTFOLIO </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center" href="sobreMi.html">SOBRE MI</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="contacto.html">CONTACTO</a>
+                  </li> 
+             </ul>
+            </div>
+          </nav>
+
+          <div class="container mt-0">
+              <div class="row d-flex justify-content-center align-items-center">
+                  <div class="caja-titulo col-sm-7  ">
+                        <h1 class="titulo text-uppercase">Desarrollador Web</h1>
+                        <p class="text-right mt-3 h5">DISEÑO A LA MEDIDA DE TU IMAGINACIÓN</p>
+                        <a href="curriculum/cv.pdf" download="CV Pablo Rodriguez">
+                            <div class=" caja-boton-cv mx-auto w-100">
+                                <button class="button btn btn-large btn-dark mt-4">DESCARGAR CV</button>
+                            </div>
+                        </a>
+                    </div>
+                  <div class="caja-foto col-sm-4 mx-auto ">
+                      <img src="fotoperfil/foto.png" alt="PABLO RODRIGUEZ">
+                  </div>
+              </div>
+          </div>
+          <div class="inicio">
+			<a href="#top-nav"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+		</div>
+    </header>
+
+<div class="portfolio py-5" id="portfolio">
+    <div class="fondo1"></div>
+    <div class="fondo2"></div>
+    <div class="container">
+        <h2 class="titulo  text-center mt-5"><span>POR</span>TFO<span>LIO</span></h2>
+        <div class="row d-flex text-center  align-items-center pt-5">
+            <ul class="lista-filtros">
+                <li class="mx-5 text-center d-inline-block active"data-target="todos">TODOS</li>
+                <li class="mx-5 text-center d-inline-block"data-target="reales">PAGINAS REALES</li>
+                <li class="mx-5 text-center d-inline-block"data-target="proyectos">PROYECTOS</li>
+            </ul>
+        </div>
+        <div class="galeria-portfolio   row d-flex text-center  align-items-center py-5">
+            <div class="caja-portfolio col-sm-5  text-white my-5 " data-id="reales">
+                <img src="proyectos/mysuccugarden.png" alt="">
+                <a href="https://mysuccugarden.netlify.app/" target="_blank">
+                    <div class="caja-boton mx-0 p-0">
+                        <button class="button  btn-dark px-0 mx-0 form-control">
+                            VER MAS
+                        </button>
+                    </div>
+                </a>
+                <div class="caja-fondo"></div>
+            </div>
+            <div class="caja-portfolio col-sm-5  text-white my-5 " data-id="reales">
+                <img src="proyectos/tienda.png" alt="">
+                <a href="https://mysuccugarden.com/" target="_blank">
+                    <div class="caja-boton mx-0 p-0">
+                        <button class="button  btn-dark px-0 mx-0 form-control">
+                            VER MAS
+                        </button>
+                    </div>
+                </a>
+                <div class="caja-fondo"></div>
+            </div>
+            <div class="caja-portfolio col-sm-5  text-white my-5 " data-id="proyectos">
+                <img src="proyectos/fitness.png" alt="">
+                <a href="https://rdzpablo.github.io/fitness/" target="_blank">
+                    <div class="caja-boton mx-0 p-0">
+                        <button class="button  btn-dark px-0 mx-0 form-control">
+                            VER MAS
+                        </button>
+                    </div>
+                </a>
+                <div class="caja-fondo"></div>
+            </div>
+            <div class="caja-portfolio col-sm-5  text-white my-5 " data-id="proyectos">
+                <img src="proyectos/dogs.png" alt="">
+                <a href="https://rdzpablo.github.io/dogs/" target="_blank">
+                    <div class="caja-boton mx-0 p-0">
+                        <button class="button  btn-dark px-0 mx-0 form-control">
+                            VER MAS
+                        </button>
+                    </div>
+                </a>
+                <div class="caja-fondo"></div>
+            </div>
+            
+            <div class="caja-portfolio col-sm-5  text-white my-5 " data-id="proyectos">
+                <img src="proyectos/aeoniums.png" alt="">
+                <a href="https://rdzpablo.github.io/aeoniums/" target="_blank">
+                    <div class="caja-boton mx-0 p-0">
+                        <button class="button  btn-dark px-0 mx-0 form-control">
+                            VER MAS
+                        </button>
+                    </div>
+                </a>
+                <div class="caja-fondo"></div>
+            </div>
+            <div class="caja-portfolio col-sm-5  text-white my-5 "data-id="proyectos">
+                <img src="proyectos/pasteleria.png" alt="">
+                <a href="https://rdzpablo.github.io/pasteleria/" target="_blank">
+                    <div class="caja-boton mx-0 p-0">
+                        <button class="button  btn-dark px-0 mx-0 form-control">
+                            VER MAS
+                        </button>
+                    </div>
+                </a>
+                <div class="caja-fondo"></div>
+            </div>
+            <div class="caja-portfolio col-sm-5  text-white my-5 "data-id="proyectos">
+                <img src="proyectos/pablizweb.png" alt="">
+                <a href="https://rdzpablo.github.io/pablizweb/" target="_blank">
+                    <div class="caja-boton mx-0 p-0">
+                        <button class="button  btn-dark px-0 mx-0 form-control">
+                            VER MAS
+                        </button>
+                    </div>
+                </a>
+                <div class="caja-fondo"></div>
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="mensaje py-5 d-flex text-center justify-content-center align-items-center">
+    <div class="container">
+        <div class="row d-flex text-center justify-content-center align-items-center">
+            <div class="mensaje-info col-sm-6 mx-auto">
+                <p class="text-center ">Tu sitio web como <span> Vos </span> lo imaginas <br><span>Diseño web Responsive </span><br> y <span> Moderno</span> </p>
+            </div>
+            <div class="mensaje-imagen col-sm-6 mx-auto">
+                <img src="imagenes/web.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+</div>   
+<footer class="pie-de-pagina">
+    <div class="copy">
+        &copy; Pablo Rodriguez 2020
+    </div>
+</footer>
+
+
+
+
+
+
+ 
+</body>
+<script type="text/javascript"  src="javascript/animacion.js"></script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
