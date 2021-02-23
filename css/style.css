@@ -34,7 +34,7 @@ header{
     overflow: hidden;
 }
 .logo{
-    width: 70%;
+    width: 25%;
     animation:aparecer 3s ease;
 }
 @keyframes aparecer{
