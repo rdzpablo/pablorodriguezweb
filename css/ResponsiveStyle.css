@@ -897,13 +897,35 @@
     }
 
 }
-@media (min-width:1201px) {
+@media (min-width:1201px) and (max-width:1439px) {
     .caja-portfolio{
         margin: 0 auto;
         height: 490px;
     }
     header .container{
-        margin-top:150px!important;
+        margin-top:0px!important;
+    }
+}
+
+@media (min-width:1440px){
+    .header-foto{
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    .caja-foto img {
+        margin: 0;
+        padding: 0;
+        width: 70%;
+    }
+    .header-foto .row.d-flex.justify-content-center.align-items-center {
+        position: absolute;
+        bottom: 0;
     }
 }
 

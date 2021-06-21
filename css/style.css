@@ -30,7 +30,7 @@ header{
     background-color:var(--fondo1);
     height: 100vh;
     width: 100%;
-    padding: 10px;
+    padding: 0px;
     overflow: hidden;
 }
 .logo{
@@ -47,14 +47,17 @@ header{
          opacity: 1;
     }
 }
-
+nav.navbar.navbar-expand-lg.d-flex.align-items-center {
+    background: #353535;
+    width: 100%!important;
+}
 .nav-item a{
     color: #ffffff ;
     margin:0 2em;
     font-family: 'Audiowide', cursive;
 }
-.nav-item a:hover{
-    color:#0c0c0c;
+.nav-item a:hover {
+    color: #fcd412;
 }
 nav button{
     background-color: #ffffff;
@@ -73,7 +76,6 @@ nav button{
         transform: translateY(0%);opacity: 1;
     }
 }
-
 header .titulo{
     font-family: 'Audiowide', cursive;
     font-size: 2.5em !important;
@@ -286,9 +288,7 @@ header .titulo{
     font-family: 'Audiowide', cursive;
 }
 .mensaje p span{
-    color:#fff;
-    
-
+    color: #7d7d7d;
 }
 .mensaje-imagen img{
     width: 100%;
@@ -313,7 +313,7 @@ html{
 }
 .habilidades{
     background-color:var(--fondo2);
-    height: 100vh;
+    height: 100%;
 }
 .habilidades h3{
     font-family: 'Audiowide', cursive;
